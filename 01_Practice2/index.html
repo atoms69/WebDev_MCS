@@ -1,9 +1,11 @@
 <!DOCTYPE html>
+<!-- не забывай про табуляцию вложенных тегов. Сейчас это кажется не важным, но на самом деле очень важно-->
 <html lang="ru">
 <head>
 <title>Jim Morrison</title>
 <meta charset="utf-8">
 <meta description="Practice2">
+<!-- забыл поставить > в конце открывающего тега -->
 <mate keywords="practice2"
 </head>
 <body>
@@ -12,6 +14,7 @@
 		<div class="header-container">
 			<h1>Jim Morrison</h1>
 		</div>
+		<!-- зачем нужны эти div и nav? -->
 		<div></div>
 		<nav></nav>
 	</header>
@@ -19,11 +22,13 @@
 		<div class="content-container">
 			<section class="image">
 				<div class="image-container">
+					<!-- alt можно писать с пробелами и на любом языке -->
 					<img src="img/jim.jpg" alt="Фото_Джима_Моррисона">
 				</div>
 			</section>
 			<nav class="menu">
 				<ul class="menu-container">
+					<!-- старайся придерживаться одного стиля кода для всех одинаковых элементов. Если пишешь li на одной строчке с a пиши так везде. Сейчас это выглядит так, будто первый li закрывается в хонце всего блока ссылок, но на деле это не так-->
 					<li>
 						<a href="#Bio">Биография</a></li>
 						<li><a href="#Doors">Doors</a></li>
@@ -35,7 +40,7 @@
 			<section class="Bio">
 				<h2 class="sectionText" id="Bio">Биография</h2>
 				<p class="mainText">Джим Моррисон родился в Мелборне, штат Флорида, в семье будущего адмирала Джорджа Моррисона (англ.) (1919—2008) и Клары Моррисон (девичья фамилия Кларк, 1919—2005)[5]. Также у Джима были брат Эндрю и сестра Энн[5]. В Джиме были смешаны шотландская, английская и ирландская кровь[6]. Ещё со школьной скамьи Моррисон начал интересоваться трудами Артюра Рембо, Уильяма Блейка, Фридриха Ницше. Известно, что IQ Моррисона составлял 149[7].
-
+<!-- лучше добавить табуляции ко всем блокам текста, чтобы все было на одном уровне вложенности. Так легче читать код-->
 В жизни военных часты переезды, и однажды, когда Джиму было всего четыре года, в штате Нью-Мексико произошло нечто, что впоследствии он описывал как одно из важнейших событий своей жизни: на дороге разбился грузовик с индейцами, и их окровавленные и больные тела вывалились из грузовика и валялись вдоль пути.
 
 «Я впервые познал страх (…) я думаю, в тот момент души тех мертвых индейцев, может одного или двух из них, носились вокруг, корчась, и вселились в мою душу, я был как губка, с готовностью впитавшая их».
@@ -61,6 +66,7 @@
 			</section>
 			<section class="Links">
 				<h2 class="sectionText" id="Links">Ссылки</h2>
+				<!-- логика подсказывает, что здесь должен быть список со ссылками, а не параграф текста-->
 				<p class="mainText">Linda Ashcroft, Wild Child: Life with Jim Morrison, (1997) ISBN 1-56025-249-9<br>
 Lester Bangs, «Jim Morrison: Bozo Dionysus a Decade Later» in Main Lines, Blood Feasts, and Bad Taste: A Lester Bangs Reader, John Morthland, ed. Anchor Press (2003) ISBN 0-375-71367-0<br>
 Patricia Butler, Angels Dance and Angels Die: The Tragic Romance of Pamela and Jim Morrison, (1998) ISBN 0-8256-7341-0<br>
@@ -72,6 +78,7 @@ Jerry Hopkins, The Lizard King: The Essential Jim Morrison (1995) ISBN 0-684-818
 			</section>
 		</div>
 	</main>
+	<!--зачем нужен футер, если в нем ничего нет?-->
 	<footer class="footer">
 		<div class="footer-container">
 		</div>
